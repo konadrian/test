@@ -1,0 +1,26 @@
+<pre>array (
+  0 => 
+  array (
+    'file' => 'C:\\www\\customers\\3tech\\include\\database\\PearDatabase.php',
+    'line' => 277,
+    'function' => 'checkError',
+  ),
+  1 => 
+  array (
+    'file' => 'C:\\www\\customers\\3tech\\modules\\Calculations\\actions\\TestOverlap.php',
+    'line' => 42,
+    'function' => 'query',
+  ),
+  2 => 
+  array (
+    'file' => 'C:\\www\\customers\\3tech\\include\\main\\WebUI.php',
+    'line' => 203,
+    'function' => 'process',
+  ),
+  3 => 
+  array (
+    'file' => 'C:\\www\\customers\\3tech\\index.php',
+    'line' => 26,
+    'function' => 'process',
+  ),
+)</pre> Query Failed:SELECT * FROM vtiger_reservations  INNER JOIN vtiger_crmentity ON vtiger_crmentity.crmid = vtiger_reservations.reservationsid  WHERE vtiger_crmentity.deleted = 0  AND (CONCAT(date_start,' ',time_start) => '2017-05-27 13:15'  AND CONCAT(due_date,' ',time_end) <= '2017-05-27 15:30') ::ADODB error  Query Failed:SELECT * FROM vtiger_reservations  INNER JOIN vtiger_crmentity ON vtiger_crmentity.crmid = vtiger_reservations.reservationsid  WHERE vtiger_crmentity.deleted = 0  AND (CONCAT(date_start,' ',time_start) => '2017-05-27 13:15'  AND CONCAT(due_date,' ',time_end) <= '2017-05-27 15:30') ::->You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2017-05-27 13:15'  AND CONCAT(due_date,' ',time_end) <= '2017-05-27 15:30')' at line 1
