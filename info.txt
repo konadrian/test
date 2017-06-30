@@ -1,4 +1,4 @@
-<pre>array (
+<pre>array 
   0 => 
   array (
     'file' => 'C:\\www\\customers\\3tech\\include\\database\\PearDatabase.php',
