@@ -1,5 +1,5 @@
-<pre>array (
-  0 => 
+<pre>array 
+  0 => dasdsadas
   array (
     'file' => 'C:\\www\\customers\\3tech\\include\\database\\PearDatabase.php',
     'line' => 277,
