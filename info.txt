@@ -3,6 +3,7 @@ aaaaa
     'file' => 'C:\\www\\customers\\3tech\\include\\database\\PearDatabase.php',
     'line' => 277,
     'function' => 'checkError',
+	
   ),
   1 => 
   array (
